@@ -1,0 +1,21 @@
+{
+    "include_glo": {
+        "prefix": "include <",
+        "body": [
+            "include <$0"
+        ]
+    },
+    "include_loc": {
+        "prefix": "include \"",
+        "body": [
+            "include \"$0"
+        ]
+    },
+    "multiple_line_macro": {
+        "prefix": "def",
+        "body": [
+            "define ${1:macro}(${2:args}) do { $0 } while(0);"
+        ]
+    }
+}
+

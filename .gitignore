@@ -1,0 +1,14 @@
+lazy-lock.json
+data
+old
+*.vim
+
+/*
+
+!/init.lua
+!/.gitignore
+!/stylua.toml
+
+!/lua
+!/plug-configs
+!/snippets

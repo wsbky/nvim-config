@@ -1,0 +1,14 @@
+{
+    "include_glo": {
+        "prefix": "include <",
+        "body": [
+            "include <$0"
+        ]
+    },
+    "include_loc": {
+        "prefix": "include \"",
+        "body": [
+            "include \"$0"
+        ]
+    }
+}
